@@ -373,19 +373,26 @@
   </script>
 
 <script>
-// Metode Sapu Jagat: Matikan SEMUA audio di web saat aplikasi Chrome diminimize
 document.addEventListener("visibilitychange", function() {
+    var allAudios = document.getElementsByTagName("audio");
+    
     if (document.hidden) {
-        // Cari semua elemen audio yang ada di website undangan Anda
-        var allAudios = document.getElementsByTagName("audio");
-        
-        // Lakukan perulangan untuk mematikan semuanya secara paksa
+        // Jika keluar/minimize, matikan semua musik
         for (var i = 0; i < allAudios.length; i++) {
             allAudios[i].pause();
+        }
+    } else {
+        // Jika masuk kembali ke web, putar otomatis lagi semuanya
+        for (var i = 0; i < allAudios.length; i++) {
+            // Browser mengizinkan autoplay di sini karena user sudah pernah berinteraksi sebelumnya
+            allAudios[i].play().catch(function(error) { 
+                console.log("Autoplay diblokir browser sebelum ada interaksi pertama."); 
+            });
         }
     }
 });
 </script>
+
 
     
 
