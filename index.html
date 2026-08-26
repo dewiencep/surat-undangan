@@ -372,6 +372,24 @@
     AOS.init();
   </script>
 
+  <script>
+// Kode otomatis untuk mematikan musik saat keluar dari Chrome
+document.addEventListener("visibilitychange", function() {
+    // Cari elemen audio di dalam web Anda
+    var audio = document.querySelector("audio"); 
+    
+    if (audio) {
+        if (document.hidden) {
+            // Jika tamu keluar aplikasi / ganti tab, musik otomatis berhenti (pause)
+            audio.pause(); 
+        } else {
+            // Jika tamu kembali membuka web, musik berputar lagi (opsional)
+            // Hapus baris di bawah ini jika tidak ingin musik berputar otomatis saat kembali
+            audio.play().catch(function(error) { console.log("Audio play diblokir browser"); });
+        }
+    }
+});
+  </script>
   
     
 
