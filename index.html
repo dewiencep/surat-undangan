@@ -455,7 +455,25 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-
+// Menghentikan musik otomatis saat pengguna keluar dari aplikasi Chrome / pindah tab
+document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") {
+        // Jika halaman web tidak terlihat (hidden), jeda musik & hentikan piringan hitam
+        if (isPlaying) {
+            audio.pause();
+            vinyl.style.animationPlayState = "paused";
+            playIcon.className = "fa-solid fa-play";
+        }
+    } else {
+        // JIKA ANDA INGIN MUSIK NYALA LAGI OTOMATIS SAAT USER KEMBALI, AKTIFKAN KODE DI BAWAH:
+         if (isPlaying) {
+           audio.play();
+             vinyl.style.animationPlayState = "running";
+           playIcon.className = "fa-solid fa-pause";
+        }
+    }
+});
+  
 
   
 function bukaUndangan() {
