@@ -1,0 +1,610 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- STYLE ICON -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <!-- ANIMATION AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="page2.css">
+  <title>Undangan Pernikahan</title>
+  
+</head>
+  
+<body>
+
+  <!-- HALAMAN CARD AMPLOP -->
+  <div class="wraper" id="cover-page">
+  
+<!-- ANIMASI DAUN JATUH -->
+  <div id="daun-container">
+    
+    <img class="daun d1" src="daun1.png">
+    <img class="daun d2" src="daun1.png">
+    <img class="daun d3" src="daun2.png">
+    <img class="daun d4" src="daun1.png">
+    <img class="daun d5" src="daun2.png">
+    <img class="daun d6" src="daun1.png">
+  
+  </div>
+    
+  <div id="container">
+
+    <div class="title" 
+     data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
+      
+      <h1>you're</h1>
+      <h1>INVITED</h1>
+      
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="1500" class="amplop" onclick="bukaUndangan()">
+      
+        <img class="img" id="btn" src="amplop.png">
+      
+    </div>
+
+    <div class="textT" 
+     data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
+
+      <h3>Kepada Yth.</h3>
+      <h2 id="nama-tamu">Nama Tamu</h2>
+      
+    </div>
+    
+  </div>
+</div>
+
+  <!-- AKHIR HALAMAN CARD AMPLOP-->
+
+
+    
+
+
+
+  <!-- HALAMAN 2 SURAT UNDANGAN -->
+
+  <div class="wraper2" id="main-page" style="display: none;">
+    
+
+   <section class="slide-page bagian-1">
+
+      <div class="konten-tengah " 
+        data-aos="fade-in"
+        data-aos-easing="linear"
+        data-aos-duration="1300"
+        >
+
+        <img src="surat.png" alt="" class="animasi-fade-in">
+        
+      </div>
+   </section>
+    
+   <section class="slide-page bagian-2">
+
+      <div class="konten-tengah">
+
+        <h1 class="animasi-fade-up">Counting</h1>
+        <h1 class="animasi-fade-up">Days</h1>
+
+        <div class="countdown-container" >
+    <!-- Kotak Hari -->
+    <div class="countdown-box">
+        <span id="hari" class="animasi-fade-up">00</span>
+        <p class="animasi-fade-up">Hari</p>
+    </div>
+    
+    <!-- Kotak Jam -->
+    <div class="countdown-box">
+        <span id="jam" class="animasi-fade-up">00</span>
+        <p class="animasi-fade-up">Jam</p>
+    </div>
+
+          <!-- Kotak Menit (Baru) -->
+    <div class="countdown-box">
+        <span id="menit" class="animasi-fade-up">00</span>
+        <p class="animasi-fade-up">Menit</p>
+    </div>
+
+    <!-- Kotak Detik (Baru) -->
+    <div class="countdown-box">
+        <span id="detik" class="animasi-fade-up">00</span>
+        <p class="animasi-fade-up">Detik</p>
+    </div>
+          
+</div>
+      
+
+        <img src="love.png" class="animasi-fade-in" >
+        <br>
+        <h1 class="animasi-fade-up">September</h1>
+
+        <img src="kalender.png" class="animasi-fade-in">
+        
+        <img class="bunga-zoom-in-left" src="bunga1.png">
+        <img class="bunga-zoom-in-right" src="bunga4.png">
+
+        
+
+        
+     </div>
+   </section>
+
+              <!-- HALAMAN 3 -->
+    
+   <section class="slide-page bagian-3">
+      <div class="konten-tengah" >
+        
+        <img class="animasi-fade-down" src="bismilah.png">
+
+
+        <h1 class="animasi-fade-up">Assalamu'alaikum Wr. Wb</h1>
+        
+        <p class="animasi-fade-up">Tanpa mengurangi rasa hormat, kami mengundang 
+           Bapak/Ibu/Saudara/i serta kerabat 
+           sekalian untuk menghadiri acara pernikahan kami.
+        </p>
+        
+             <!--  AWAL NAME RIDWAN  -->
+        <div class="ridwan">
+            <h1 class="animasi-fade-up">Encep Ridwan Winata</h1>
+          
+              <p class="animasi-fade-up">Putra kedua dari 
+              <br>Bapak Sapin Winata S.Pd & Ibu Aam Rohamah 
+              <br>(Cipanas - Lebak)</p>
+
+            <a  class="link-medsos-wan animasi-fade-up" href="https://www.instagram.com/ridwann.winata?igsi=N2FxNjJzaWMwY2Ew"> 
+             <i class="fa-brands fa-instagram" class="animasi-fade-up"></i>
+            </a>
+  
+        </div>
+             <!--  AKHIR NAME RIDWAN  -->
+
+        <h1 class="animasi-fade-up" style="top : 470px;">&</h1>
+
+             <!--  AWAL NAME DEWI  -->
+        <div class="dewi">
+            <h1 class="animasi-fade-up">Dewi Muliana</h1>
+          
+              <p class="animasi-fade-up">Putri kedua dari 
+              <br>Bapak Armin & Ibu Marni
+              <br>(Pandeglang)</p>
+
+            <a  class="link-medsos-dew animasi-fade-up" href="https://www.instagram.com/widewi51?igsi=MThkNWhodGJmeWFreg=="> 
+             <i class="fa-brands fa-instagram"></i>
+            </a>
+  
+        </div>
+             <!--  AKHIR NAME DEWI  -->
+
+             <!--   HADIS  -->
+        <div class="hadis" >
+
+        <p class="animasi-fade-up"> Save The Date</p>
+        <br>
+        <p class="animasi-fade-up">"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
+        <br> <br> (Qs. Ar-Rum : 21)
+        </p>
+          
+        </div>
+              <!--  AKHIR HADIS  -->
+
+
+              <!--  AWAL ORNAMEN BUNGA  -->
+        <div class="ornamen-bunga">
+
+            <img src="bunga1.png" class="animasi-zoom-in">
+            <img src="bunga1.png" class="animasi-zoom-in">
+            <img src="bungapojok.png" >
+            <img src="bungapojok.png" >
+            <img src="bungapojok.png" >
+            <img src="bungapojok.png" >
+      
+        </div>
+         <!--  AKHIR ORNAMEN BUNGA  -->
+
+        
+      </div>
+   </section>
+
+
+
+    
+<section class="slide-page bagian-4">
+  <div class="konten-tengah">
+            <img src="bunganew.png" class="animasi-fade-in">
+            <img src="kupu.png" class="animasi-fade-in">
+    
+    <!-- Kotak Akad Nikah -->
+    <div class="card" class="animasi-fade-up">
+      <div class="card-body">
+        <h2 class="animasi-fade-up">Akad Nikah</h2>
+        <p class="animasi-fade-up">Sabtu, 5 Sept 2026</p>
+        <p class="animasi-fade-up" class="time" ><i class="fa-regular fa-clock"></i> Pukul: 09.00 WIB</p>
+        <p class="animasi-fade-up" class="location" "><i class="fa-solid fa-house"></i> Kediaman Mempelai Wanita</p>
+      </div>
+      
+      <div class="card-footer">
+        <a href="https://maps.app.goo.gl/PuiV2Jo6KHwMdQ8F9" target="_blank" rel="noopener" class="btn-maps">
+          <p class="animasi-fade-up"><i class="fa-solid fa-location-dot" ></i> Google Maps</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Kotak Resepsi -->
+    <div class="card" class="animasi-fade-up">
+      <div class="card-body">
+        <h2 class="animasi-fade-up">Resepsi</h2>
+        <p class="animasi-fade-up">Sabtu, 5 Sept 2026</p>
+        <p class="animasi-fade-up" class="time"><i class="fa-regular fa-clock"></i> Pukul: 10.00 WIB</p>
+        <p class="animasi-fade-up" class="location"><i class="fa-solid fa-house"></i> Kediaman Mempelai Wanita</p>
+      </div>
+      <div class="card-footer" >
+        <a href="https://maps.app.goo.gl/PuiV2Jo6KHwMdQ8F9" target="_blank" rel="noopener" class="btn-maps">
+         <p class="animasi-fade-up"> <i class="fa-solid fa-location-dot"></i> Google Maps </p>
+        </a>
+      </div>
+    </div>
+            <img src="bungapojok.png" >
+            <img src="bungapojok.png" >
+
+    
+  </div>
+</section>
+
+
+<section class="slide-page bagian-5">
+  <div class="konten-tengah">
+            
+    <p class="animasi-fade-up">Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu, Atas kehadiran dan doa restunya, kami mengucapkan terima kasih.</p>
+    <p class="animasi-fade-up">Wassalamu'alaikum Wr. Wb.</p>
+    <p class="animasi-fade-up">Encep  &  Dewi</p>
+    
+            
+  </div>
+</section>  
+  
+<section class="slide-page bagian-6">
+  <div class="konten-tengah">
+            
+        <!-- Tombol Buka Undangan Elemen Luar -->
+            <img src="bungapojok.png" >
+            <img src="bungapojok.png" >
+    
+    <!-- Music Player Card (Ala Spotify Modern) -->
+    <div class="music-card">
+        <audio id="audio-track" loop>
+            <source src="musik.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- Piringan Hitam dengan Foto -->
+        <div class="vinyl-wrapper">
+            <div class="vinyl-record" id="vinyl-disk" style="background-image: url('beautiful.jpg');">
+                <div class="vinyl-center-hole"></div>
+            </div>
+        </div>
+
+        <!-- Informasi Lagu & Kecepatan -->
+        <div class="song-details">
+            <h2 id="track-title">Beautiful In White</h2>
+            <p id="track-artist">Shane Filan</p>
+            
+            <div class="speed-control">
+                <i class="fa-solid fa-gauge-high"></i>
+                <select id="select-speed">
+                    <option value="0.5">0.5x</option>
+                    <option value="1" selected>1.0x</option>
+                    <option value="1.5">1.5x</option>
+                    <option value="2">2.0x</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Progress Bar Slider -->
+        <div class="progress-container">
+            <span id="current-time" class="time-stamp">00:00</span>
+            <input type="range" id="progress-bar" min="0" max="100" value="0">
+            <span id="duration-time" class="time-stamp">00:00</span>
+        </div>
+
+        <!-- Kontrol Navigasi Utama -->
+        <div class="player-controls">
+            <button id="btn-prev" class="control-btn nav-btn" title="Musik Sebelumnya">
+                <i class="fa-solid fa-backward-step"></i>
+            </button>
+            
+            <button id="btn-master-play" class="control-btn play-btn" title="Play/Pause">
+                <i id="play-icon" class="fa-solid fa-play"></i>
+            </button>
+            
+            <button id="btn-next" class="control-btn nav-btn" title="Musik Selanjutnya">
+                <i class="fa-solid fa-forward-step"></i>
+            </button>
+        </div>
+    </div>
+
+    <img src="bungapojok.png" >
+    <img src="bungapojok.png" >
+  </div>
+</section>  
+  
+
+
+
+
+    
+  </div>
+
+
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  
+    
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+    const audio = document.getElementById("audio-track");
+    const vinyl = document.getElementById("vinyl-disk");
+    const masterPlayBtn = document.getElementById("btn-master-play");
+    const playIcon = document.getElementById("play-icon");
+    const speedSelect = document.getElementById("select-speed");
+    const triggerBtn = document.getElementById("btn");
+    
+    // Elemen Progress Baru
+    const progressBar = document.getElementById("progress-bar");
+    const currentTimeDisplay = document.getElementById("current-time");
+    const durationTimeDisplay = document.getElementById("duration-time");
+    const nextBtn = document.getElementById("btn-next");
+    const prevBtn = document.getElementById("btn-prev");
+
+    let isPlaying = false;
+
+    // Fungsi Format Detik ke Menit (00:00)
+    function formatTime(seconds) {
+        if (isNaN(seconds)) return "00:00";
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins < 10 ? '0' : ''}${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    }
+
+    // Fungsi Play & Pause Toggle
+    function togglePlay() {
+        if (!isPlaying) {
+            audio.play().then(() => {
+                isPlaying = true;
+                vinyl.style.animationPlayState = "running";
+                playIcon.className = "fa-solid fa-pause";
+            }).catch(err => console.log("Menunggu aksi interaksi user:", err));
+        } else {
+            audio.pause();
+            isPlaying = false;
+            vinyl.style.animationPlayState = "paused";
+            playIcon.className = "fa-solid fa-play";
+        }
+    }
+
+    // Sinkronisasi Durasi Saat Audio Selesai Dimuat
+    audio.addEventListener("loadedmetadata", () => {
+        durationTimeDisplay.innerText = formatTime(audio.duration);
+    });
+
+    // Jalankan otomatis jika metadata sudah ada sejak awal cache
+    if (audio.readyState >= 1) {
+        durationTimeDisplay.innerText = formatTime(audio.duration);
+    }
+
+    // Update Progress Bar & Angka Menit Berjalan
+    audio.addEventListener("timeupdate", () => {
+        currentTimeDisplay.innerText = formatTime(audio.currentTime);
+        
+        // Atur posisi slider memanjang
+        if (audio.duration) {
+            const progressPercent = (audio.currentTime / audio.duration) * 100;
+            progressBar.value = progressPercent;
+        }
+    });
+
+    // Fungsi Ketika Bar Digeser/Klik Manual oleh User
+    progressBar.addEventListener("input", () => {
+        const newTime = (progressBar.value / 100) * audio.duration;
+        audio.currentTime = newTime;
+    });
+
+    // Event Listener Tombol Utama
+    masterPlayBtn.addEventListener("click", togglePlay);
+    
+    if (triggerBtn) {
+        triggerBtn.addEventListener("click", () => {
+            if (!isPlaying) togglePlay();
+        });
+    }
+
+    // Ubah Kecepatan Musik & Rotasi Piringan
+    speedSelect.addEventListener("change", (e) => {
+        const speed = parseFloat(e.target.value);
+        audio.playbackRate = speed;
+        vinyl.style.animationDuration = `${5 / speed}s`;
+    });
+
+    // Simulasi Tombol Ganti Musik (Next / Prev)
+    nextBtn.addEventListener("click", () => {
+        alert("Fitur pindah lagu selanjutnya dipicu. Anda bisa memasukkan playlist array baru di sini.");
+    });
+
+    prevBtn.addEventListener("click", () => {
+        alert("Fitur kembali ke lagu sebelumnya dipicu.");
+    });
+});
+
+
+
+  
+function bukaUndangan() {
+  const cover = document.getElementById('cover-page');
+  const main = document.getElementById('main-page');
+  
+  // 1. Munculkan halaman kedua di latar belakang terlebih dahulu
+ // main.style.display = 'block';
+
+  setTimeout(() => {
+    main.style.display = 'block';
+   // main.classList.add('opacity');
+  }, 55)
+  // 2. Beri jeda 20 milidetik agar browser sempat memproses layout, 
+  // baru jalankan animasi geser atas (.hide-amplop) secara mulus
+  setTimeout(() => {
+    cover.classList.add('hide-amplop');
+  }, 50); 
+
+  // 3. Tambahkan tanda #open di URL agar aman saat reload
+  
+  // 4. Setelah durasi animasi CSS selesai (1 detik / 1000ms), lenyapkan amplop total
+  setTimeout(() => {
+    cover.style.display = 'none'; // Menghilangkan total ruang amplop
+    window.scrollTo(0, 0);        // Memaksa layar stanby di paling atas halaman 2
+    AOS.refresh();                // Menyegarkan animasi AOS di halaman 2
+  }, 1200); // Dilebihkan sedikit dari durasi transisi agar benar-benar tuntas
+}
+
+
+
+  
+// Menentukan tanggal target: 5 September 2026 pukul 00:00:00
+const tanggalTarget = new Date("September 5, 2026 00:00:00").getTime();
+
+const hitungMundur = setInterval(function() {
+
+    // Mengambil waktu sekarang secara realtime
+    const sekarang = new Date().getTime();
+    
+    // Menghitung selisih jarak waktu
+    const selisihWaktu = tanggalTarget - sekarang;
+    
+    // Kalkulasi matematika untuk Hari, Jam, Menit, dan Detik
+    const hari = Math.floor(selisihWaktu / (1000 * 60 * 60 * 24));
+    const jam = Math.floor((selisihWaktu % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const menit = Math.floor((selisihWaktu % (1000 * 60 * 60)) / (1000 * 60));
+    const detik = Math.floor((selisihWaktu % (1000 * 60)) / 1000);
+    
+    // Menampilkan hasil ke elemen HTML dengan ID masing-masing
+    document.getElementById("hari").innerHTML = String(hari).padStart(2, '0');
+    document.getElementById("jam").innerHTML = String(jam).padStart(2, '0');
+    document.getElementById("menit").innerHTML = String(menit).padStart(2, '0');
+    document.getElementById("detik").innerHTML = String(detik).padStart(2, '0');
+    
+    // Jika hitungan mundur sudah selesai
+    if (selisihWaktu < 0) {
+        clearInterval(hitungMundur);
+        document.getElementById("hari").innerHTML = "00";
+        document.getElementById("jam").innerHTML = "00";
+        document.getElementById("menit").innerHTML = "00";
+        document.getElementById("detik").innerHTML = "00";
+    }
+}, 1000);
+
+
+
+
+
+  // JAVASCRIPT GABUNGAN TERBARU & UTUH -->
+
+    // 1. FUNGSI MEMBACA NAMA TAMU OTOMATIS DARI URL PARAMETER (?to=Nama)
+    function bacaNamaDariLink() {
+      const parameterURL = new URLSearchParams(window.location.search);
+      const namaTamu = parameterURL.get('to'); 
+      if (namaTamu) {
+        // decodeURIComponent berfungsi agar spasi dan karakter khusus terbaca rapi
+        document.getElementById('nama-tamu').innerText = decodeURIComponent(namaTamu.replace(/\+/g, ' '));
+      }
+    }
+
+    // 2. FUNGSI ANIMASI SCROLL MAJU-MUNDUR (FADE & ZOOM MEKAR)
+    function jalankanAnimasiScroll() {
+      const opsiPemicu = {
+        root: null,
+        // Memberikan ruang toleransi 40px di bawah layar agar elemen bersiap muncul
+        rootMargin: "0px 0px -100px 0px", 
+        // Threshold kecil agar dijamin langsung terpicu saat menyentuh batas layar
+        threshold: .2
+      };
+
+      const pengamatMata = new IntersectionObserver((daftarElemen) => {
+        daftarElemen.forEach((elemen) => {
+          if (elemen.isIntersecting) {
+            // Ketika elemen masuk layar, tambahkan class .tumbuh (Memicu Efek Muncul/Mekar)
+            elemen.target.classList.add('tumbuh');
+          } else {
+            // SOLUSI SCROLL UP: Ketika di-scroll balik ke atas, hapus class .tumbuh (Elemen Sembunyi Kembali)
+            elemen.target.classList.remove('muncul', 'tumbuh');
+          }
+        });
+      }, opsiPemicu);
+
+      // DAFTARKAN SELURUH CLASS ANIMASI YANG KITA MILIKI (FADE + ZOOM)
+      const targetAnimasi = document.querySelectorAll(
+        '.animasi-fade-up, .animasi-fade-down, .animasi-fade-in, .animasi-fade-kiri, .animasi-fade-kanan, .animasi-zoom-in, .animasi-zoom-out, .bunga-zoom-in-left, .bunga-zoom-in-right'
+      );
+      
+      // Mulai mengawasi pergerakan masing-masing elemen di layar
+      targetAnimasi.forEach((el) => {
+        pengamatMata.observe(el);
+      });
+    }
+
+    // KUNCI AMAN: Memastikan seluruh struktur HTML selesai dimuat browser sebelum script berjalan
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", () => {
+        bacaNamaDariLink();
+        jalankanAnimasiScroll();
+      });
+    } else {
+      bacaNamaDariLink();
+      jalankanAnimasiScroll();
+    }
+  </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+  <script>
+  function setDocHeight() {
+    // Mengambil tinggi asli area pandang dalam piksel
+    let vh = window.innerHeight * 0.01;
+    // Membuat variabel CSS baru bernama --vh
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }
+
+  // Jalankan saat halaman dimuat
+  window.addEventListener('load', setDocHeight);
+  // Jalankan saat layar diputar (orientasi berubah)
+  window.addEventListener('orientationchange', () => {
+    setTimeout(setDocHeight, 200);
+  });
+</script>
+
+  
+</body>
+</html>
+
