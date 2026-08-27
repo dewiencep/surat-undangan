@@ -19,7 +19,6 @@ html, body {
     
 }
 
-
 body {
     overflow-x: hidden;
     justify-content: center; /* Mengetengahkan wrapper secara horizontal di desktop */
@@ -72,7 +71,7 @@ body {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     
-    background-image: url('bghalaman3.png');
+    background-image: url('bghalaman3.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -262,7 +261,7 @@ body {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0; /* Reset ke 0 agar pas dengan bingkai slide */
     
-    background-image: url('bghalaman3.png');
+    background-image: url('bghalaman3.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -510,7 +509,7 @@ body {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0; /* Reset ke 0 agar pas dengan bingkai slide */
     
-    background-image: url('bghalaman4.png');
+    background-image: url('bghalaman4.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -719,7 +718,7 @@ a:focus, a:active {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0; /* Reset ke 0 agar pas dengan bingkai slide */
   
-    background-image: url('gorden.png');
+    background-image: url('gorden.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -791,7 +790,7 @@ a:focus, a:active {
 }
 
 .bagian-4 .card::before {
-  background-image: url('bghalaman4.png');
+  background-image: url('bghalaman4.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -930,7 +929,7 @@ a:focus, a:active {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0; /* Reset ke 0 agar pas dengan bingkai slide */
   
-    background-image: url('bghalaman3.png');
+    background-image: url('bghalaman3.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -983,7 +982,7 @@ a:focus, a:active {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0; /* Reset ke 0 agar pas dengan bingkai slide */
   
-    background-image: url('gorden.png');
+    background-image: url('gorden.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
